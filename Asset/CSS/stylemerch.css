@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 1500px;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 60px;
+  background-color: black;
+  z-index: 1;
+}
+
+nav .main_container {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  font-size: large;
+  padding-block: 5px;
+}
+
+nav .main_container .menu {
+  position: relative;
+  height: calc(100% - 25px);
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-top: 12px;
+  float: left;
+  color: white;
+  cursor: pointer;
+}
+
+nav .main_container .getticket {
+  position: relative;
+  height: calc(100% - 25px);
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-top: 12px;
+  float: left;
+  color: white;
+  cursor: pointer;
+}
+
+nav .main_container .menu:hover {
+  color: orange;
+  transition: 0.5s;
+}
+nav .main_container .getticket:hover {
+  color: orange;
+  transition: 0.5s;
+}
+
+header {
+  position: relative;
+  margin-top: 100px;
+  margin-inline: 20px;
+  cursor: pointer;
+  font-size: larger;
+  text-align: center;
+}
+
+#search {
+  width: 20px;
+  filter: invert(100%);
+}
+input {
+  width: 300px;
+  height: 25px;
+  border-radius: 50px;
+  padding-left: 10px;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.search_container {
+  display: flex;
+  position: relative;
+  margin-left: 120px;
+  align-items: center;
+}
+
+#search_button {
+  background-color: blue;
+  border-radius: 50px;
+  border-style: inset;
+  cursor: pointer;
+}
+
+.card {
+  margin: 50px 20px;
+  width: 25%;
+  height: 500px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 35px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+}
+.card:hover {
+  box-shadow: 2px 2px 2px 2px grey;
+  transform: translateY(-1%);
+}
+.card > a > img {
+  border-style: inset;
+  border-width: 2px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+.card:hover > a > img {
+  box-shadow: -1px -1px 1px 1px grey;
+  transform: translateY(1%);
+}
+
+.color {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.black {
+  background-color: black;
+  transition: 0.5s;
+}
+
+.black:hover {
+  box-shadow: 1px 1px 1px 1px grey;
+  transform: translateY(-1%);
+}
+
+.white {
+  background-color: white;
+  transition: 0.5s;
+}
+
+.white:hover {
+  box-shadow: 1px 1px 1px 1px grey;
+  transform: translateY(-1%);
+}
+
+.blue {
+  background-color: blue;
+  transition: 0.5s;
+}
+
+.blue:hover {
+  box-shadow: 1px 1px 1px 1px grey;
+  transform: translateY(-1%);
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+}
+
+.size {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  width: 70%;
+  text-align: center;
+  cursor: pointer;
+  height: 50px;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 10px 45px;
+  background-color: blue;
+  color: white;
+  transition: 0.3s;
+}
+.price:hover {
+  background-color: orange;
+}
+.catalogue {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#seemore {
+  display: flex;
+  justify-content: center;
+}
+
+#seemore > button {
+  border: 0px solid orange;
+  background-color: orange;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#seemore > button:hover {
+  background-color: rgb(219, 109, 0);
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin-top: 50px;
+  height: 250px;
+}
+
+#logoklik {
+  display: inline;
+}
+
+#logoklik > a > img {
+  height: 30px;
+  width: 30px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  filter: invert(100%);
+}
+
+h4 {
+  font-size: 12px;
+  font-weight: 600;
+}

@@ -1,0 +1,205 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background: rgb(113, 113, 113);
+  background: linear-gradient(
+    0deg,
+    rgb(167, 167, 167) 0%,
+    rgba(222, 222, 222, 0) 100%
+  );
+}
+section {
+  width: 100vw;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#show_bg_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: xx-large;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(116, 116, 116, 0),
+      rgba(255, 254, 254, 0.484)
+    ),
+    url(../IMG/Background.jpg);
+  width: 100%;
+  height: 140%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  padding: 20px;
+}
+
+.soundfest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: x-large;
+  padding-top: 400px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 60px;
+  background-color: black;
+}
+
+nav .main_container {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  font-size: large;
+  padding-block: 5px;
+}
+
+nav .main_container .menu {
+  position: relative;
+  height: calc(100% - 25px);
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-top: 12px;
+  float: left;
+  color: white;
+  cursor: pointer;
+}
+
+nav .main_container .getticket {
+  position: relative;
+  height: calc(100% - 25px);
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-top: 12px;
+  float: left;
+  color: white;
+  cursor: pointer;
+}
+
+nav .main_container .menu:hover {
+  color: orange;
+  transition: 0.5s;
+}
+nav .main_container .getticket:hover {
+  color: orange;
+  transition: 0.5s;
+}
+.musicmatters {
+  padding-top: 30px;
+}
+
+h4 {
+  padding: 40px;
+  font-weight: lighter;
+  font-size: large;
+}
+
+.soundfest h3 {
+  padding-bottom: 100px;
+  font-weight: lighter;
+  font-size: large;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: medium;
+  font-weight: lighter;
+}
+
+.gueststar {
+  text-align: center;
+  font-size: x-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 300px;
+}
+
+#fotoartis {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 150px;
+  margin: 50px;
+}
+
+#fotoartis > div {
+  transition: 1;
+}
+
+#fotoartis > div > img:hover {
+  box-shadow: 2px 2px 2px 2px grey;
+  transform: translateY(-1%);
+}
+
+#fotoartis > div > img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 150px;
+}
+
+#fotoartis > div > h3 {
+  padding-top: 50px;
+  font-weight: normal;
+  font-size: medium;
+}
+
+.schedule {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 300px;
+}
+
+.schedule h2 {
+  font-size: xx-large;
+}
+
+#jadwalku {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 70px;
+}
+
+#jadwalku > h3 {
+  font-weight: lighter;
+}
+hr {
+  display: inline-block;
+  width: 340px;
+  vertical-align: middle;
+  border-color: black;
+  height: 0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+#logoklik {
+  display: inline;
+}
+
+#logoklik > a > img {
+  height: 30px;
+  width: 30px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  filter: invert(100%);
+}
